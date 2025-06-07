@@ -40,7 +40,6 @@ Playwright package  -- CHECK
 3. **Install dependencies:**
 
    ```bash
-   npm install
    npm i @cucumber/cucumber -D
    npm i ts-node -D
    ```
@@ -83,18 +82,19 @@ The tests follow a modular and maintainable structure:
 
 ## ⚙️ Configuration
 
-- Modify `playwright.config.js` for playwright configuration settings such as
-  - `baseURL`
-  - `testDir`
-  - `reporter`
+- Update `package.json` and `cucumber.json` files
+  - `scripts`
+  - `path`
+  - `format`
+ 
 
 ## 📊 Reporting
 
-Cucumber HTML report (Logs are attached) is stored in the `test-results` directory. The html report give a details description of the execution status like no of PASS and FAILED tests, time take, time of execution. 
+Cucumber HTML report (Files are attached) is stored in the `test-results` directory. The html report give a detailed description of the execution status like % of PASS tests, time of execution, scenarios. 
 
-You can access the report from the below link
+You can access the html report from the link
 https://raw.githack.com/leelasetty/Playwright_Api_Auto_Leela/refs/heads/master/test-results/cucumber-report.html
 
 ## 🔭 Enhancement
 The other important areas to cover the testing of API endpoints to ensure robustness and reliable are security, load and performance testing, where we can verify for Unauthenticated access, SQL injection and Multiple concurrent requests. 
-These areas are out of scope for this project and expect for enhancement. 
+These areas are out of scope for this project and included for enhancement. 
