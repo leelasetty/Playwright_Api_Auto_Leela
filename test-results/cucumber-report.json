@@ -1,0 +1,517 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "estimating-the-age-of-a-person-by-sending-person's-name-to-a-get-api-request;estimating-the-age-of-a-person-with-a-valid-names",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Estimating the age of a person with a valid names",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I send a GET request to the user endpoint with the name of a person as \"Billybob parker\"",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 509737200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the response status is ok and \"200\"",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2357700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the response json body contains name of \"Billybob parker\" and his age",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5131200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the age returned is valid numerical value",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2686999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "estimating-the-age-of-a-person-by-sending-person's-name-to-a-get-api-request;estimating-the-age-of-a-person-with-a-valid-names",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Estimating the age of a person with a valid names",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I send a GET request to the user endpoint with the name of a person as \"billybob-bill parker\"",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158787499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the response status is ok and \"200\"",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 722299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the response json body contains name of \"billybob-bill parker\" and his age",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1779600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the age returned is valid numerical value",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1173299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "estimating-the-age-of-a-person-by-sending-person's-name-to-a-get-api-request;estimating-the-age-of-a-person-with-a-valid-names",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Estimating the age of a person with a valid names",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I send a GET request to the user endpoint with the name of a person as \"billybob\"",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 202699200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the response status is ok and \"200\"",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1119799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the response json body contains name of \"billybob\" and his age",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20220499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the age returned is valid numerical value",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1965199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "estimating-the-age-of-a-person-by-sending-person's-name-to-a-get-api-request;estimating-the-age-of-a-person-with-a-valid-names",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Estimating the age of a person with a valid names",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I send a GET request to the user endpoint with the name of a person as \"BILLYBOB\"",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 281362999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the response status is ok and \"200\"",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 639000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the response json body contains name of \"BILLYBOB\" and his age",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1649399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the age returned is valid numerical value",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1170399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "estimating-the-age-of-a-person-by-sending-person's-name-to-a-get-api-request;estimating-the-age-of-a-person-with-a-valid-names",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Estimating the age of a person with a valid names",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I send a GET request to the user endpoint with the name of a person as \"a\"",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103635099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the response status is ok and \"200\"",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 780600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the response json body contains name of \"a\" and his age",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2498500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the age returned is valid numerical value",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1710500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "estimating-the-age-of-a-person-by-sending-person's-name-to-a-get-api-request;estimating-the-age-of-a-person-with-an-invalid-names",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Estimating the age of a person with an invalid names",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I send a GET request to the user endpoint with the name of a person as \"a12\"",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104918900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "the response status is ok and \"200\"",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 830899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the response json body contains name of \"a12\" and his age",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3270999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "But ",
+            "line": 23,
+            "name": "the age returned is null",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2806999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "estimating-the-age-of-a-person-by-sending-person's-name-to-a-get-api-request;estimating-the-age-of-a-person-with-an-invalid-names",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Estimating the age of a person with an invalid names",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I send a GET request to the user endpoint with the name of a person as \"123\"",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106250000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "the response status is ok and \"200\"",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 968400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the response json body contains name of \"123\" and his age",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2097299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "But ",
+            "line": 23,
+            "name": "the age returned is null",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2370499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "estimating-the-age-of-a-person-by-sending-person's-name-to-a-get-api-request;estimating-the-age-of-a-person-with-an-invalid-names",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "Estimating the age of a person with an invalid names",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I send a GET request to the user endpoint with the name of a person as \"\"",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109599900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "the response status is ok and \"200\"",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 589200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the response json body contains name of \"\" and his age",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1860599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "But ",
+            "line": 23,
+            "name": "the age returned is null",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1482399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "estimating-the-age-of-a-person-by-sending-person's-name-to-a-get-api-request",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Estimating the age of a person by sending person's name to a GET API request",
+    "tags": [],
+    "uri": "src\\test\\features\\getAge.feature"
+  }
+]
