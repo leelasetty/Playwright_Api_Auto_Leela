@@ -3,7 +3,7 @@
 Playwright_Api_Auto_Leela
 
 ## 📑 Table of Contents
-- [Introduction] (#introduction)
+- [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Running Tests](#running-tests)
