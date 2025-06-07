@@ -18,10 +18,10 @@ Two scenarios are created one for positive and another for negative tests, This 
 please refer the documentation here https://agify.io/documentation
 
 ## 🛠️ Prerequisites
-Node.js (https://nodejs.org/) (v18.16.1 or higher recommended)
-npm (https://www.npmjs.com/) (v9.5.1 or higher recommended)
-VScode Editor
-Playwright package  -- CHECK
+- Node.js (https://nodejs.org/) (v18.16.1 or higher recommended)
+- npm (https://www.npmjs.com/) (v9.5.1 or higher recommended)
+- Playwright (https://playwright.dev/)
+- VScode Editor
 
 ## ▶️ Getting Started
 
