@@ -4,7 +4,6 @@ import { expect, APIRequestContext, request } from "@playwright/test";
 
 let apiRequestContext: APIRequestContext;
 let getApiResponse: APIResponse;
-let getApiResponseBody;
 
 Given(
   "I send a GET request to the user endpoint with the name of a person as {string}",
@@ -19,22 +18,22 @@ Given(
 );
 
 When("the response status is ok and {string}", async function (statusValue) {
-  expect(getApiResponse.status()).toBe(parseInt(statusValue));
-  expect(getApiResponse.ok()).toBeTruthy();
+     expect(getApiResponse.status()).toBe(parseInt(statusValue));
+     expect(getApiResponse.ok()).toBeTruthy();
 });
 
 Then(
-  "the response json body contains name as {string} and his age",
+  "the response json body contains name of {string} and his age",
   async function (name) {
-    getApiResponseBody = JSON.parse(await getApiResponse.text());
+    const getApiResponseBody = JSON.parse(await getApiResponse.text());
     expect(getApiResponseBody).toHaveProperty("name", name);
-    expect(getApiResponseBody.age).toHaveProperty("age"); // verify
+    expect(getApiResponseBody).toHaveProperty("age");
   }
 );
 
 Then("the age returned is valid numerical value", async function () {
-  const responseForValidAge = JSON.parse(await getApiResponse.text());
-  expect(responseForValidAge.age).toBeGreaterThan(0);
+    const responseForValidAge = JSON.parse(await getApiResponse.text());
+    expect(responseForValidAge.age).toBeGreaterThan(0);
 });
 
 Then("the age returned is null", async function () {
