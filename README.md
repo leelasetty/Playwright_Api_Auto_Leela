@@ -90,7 +90,8 @@ The tests follow a modular and maintainable structure:
 
 ## 📊 Reporting
 
-Cucumber HTML report (Logs are attached) is stored in the `test-results` directory. The html report give a details description of the execution status like no of PASS and FAILED tests, time take, time of execution
+Cucumber HTML report (Logs are attached) is stored in the `test-results` directory. The html report give a details description of the execution status like no of PASS and FAILED tests, time take, time of execution. You can access the report from the below link
+https://raw.githack.com/leelasetty/Playwright_Api_Auto_Leela/refs/heads/master/test-results/cucumber-report.html
 
 ## 🔭 Enhancement
 The other important areas to cover the testing of API endpoints to ensure robustness and reliable are security, load and performance testing, where we can verify for Unauthenticated access, SQL injection and Multiple concurrent requests. 
