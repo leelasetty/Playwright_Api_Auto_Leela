@@ -19,7 +19,7 @@ please refer the documentation here https://agify.io/documentation
 
 ## 🛠️ Prerequisites
 - Node.js (https://nodejs.org/) (v18.16.1 or higher recommended)
-- npm (https://www.npmjs.com/) (v9.5.1 or higher recommended)
+- npm (https://www.npmjs.com/) (v11.4.1 or higher recommended)
 - Playwright (https://playwright.dev/)
 - VScode Editor
 
@@ -92,8 +92,8 @@ The tests follow a modular and maintainable structure:
 
 Cucumber HTML report (Files are attached) is stored in the `test-results` directory. The html report give a detailed description of the execution status like % of PASS tests, time of execution, scenarios. 
 
-You can access the html report from the link
-https://raw.githack.com/leelasetty/Playwright_Api_Auto_Leela/refs/heads/master/test-results/cucumber-report.html
+You can access the html report from the link:
+- https://raw.githack.com/leelasetty/Playwright_Api_Auto_Leela/refs/heads/master/test-results/cucumber-report.html
 
 ## 🔭 Enhancement
 The other important areas to cover the testing of API endpoints to ensure robustness and reliable are security, load and performance testing, where we can verify for Unauthenticated access, SQL injection and Multiple concurrent requests. 
