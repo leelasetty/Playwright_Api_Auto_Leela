@@ -10,12 +10,12 @@ Playwright_Api_Auto_Leela
 - [Project Structure](#project-structure)
 - [Configuration](#configuration)
 - [Reporting](#reporting)
-- [Enhancement](#ehnancement)
+- [Enhancement](#enhancement)
 
 ## 📖 Introduction
-This is a API Automation project using Playwright and Typescript and used cucumber for Gherkin language to create BDD scenarios.
-I used CucumberJS runner with Playwright as a library to execute BDD scenarios.
+This is a API Automation project using Playwright and Typescript and used Cucumber for Gherkin language to create BDD scenarios. A get API that estimates the age of a person based on a first name is used for our automation.
 Two scenarios are created one for positive and another for negative tests, This covers the functional  verification of the get api. The test automation scripts are executed by passing different sets of test data using scenario onlines with Examples.
+please refer the documentation here https://agify.io/documentation
 
 ## 🛠️ Prerequisites
 Node.js (https://nodejs.org/) (v18.16.1 or higher recommended)
@@ -28,7 +28,7 @@ Playwright package  -- CHECK
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/leelasetty/Playwright_Api_Auto_Leela/tree/master
+   git clone https://github.com/leelasetty/Playwright_Api_Auto_Leela.git
    ```
 
 2. **Navigate to the project directory:**
@@ -41,7 +41,7 @@ Playwright package  -- CHECK
 
    ```bash
    npm install
-   npm i @cucumber@cucumber -D
+   npm i @cucumber/cucumber -D
    npm i ts-node -D
    ```
 
@@ -90,7 +90,9 @@ The tests follow a modular and maintainable structure:
 
 ## 📊 Reporting
 
-Cucumber HTML report (Logs are attached) is stored in the `test-results` directory. The html report give a details description of the execution status like no of PASS and FAILED tests, time take, time of execution. You can access the report from the below link
+Cucumber HTML report (Logs are attached) is stored in the `test-results` directory. The html report give a details description of the execution status like no of PASS and FAILED tests, time take, time of execution. 
+
+You can access the report from the below link
 https://raw.githack.com/leelasetty/Playwright_Api_Auto_Leela/refs/heads/master/test-results/cucumber-report.html
 
 ## 🔭 Enhancement
