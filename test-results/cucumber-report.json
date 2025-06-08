@@ -13,13 +13,13 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "I send a GET request to the user endpoint with the name of a person as \"Billybob parker\"",
+            "name": "I send a GET request to the endpoint with the name of a person as \"Billybob parker\"",
             "match": {
               "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 522069199
+              "duration": 462224400
             }
           },
           {
@@ -28,11 +28,11 @@
             "line": 6,
             "name": "the response status is ok and \"200\"",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:20"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:31"
             },
             "result": {
               "status": "passed",
-              "duration": 2413700
+              "duration": 2569100
             }
           },
           {
@@ -41,11 +41,11 @@
             "line": 7,
             "name": "the response json body contains name of \"Billybob parker\" and his age",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:25"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:36"
             },
             "result": {
               "status": "passed",
-              "duration": 4629699
+              "duration": 4875100
             }
           },
           {
@@ -54,11 +54,11 @@
             "line": 8,
             "name": "the age returned is valid numerical value",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:34"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:45"
             },
             "result": {
               "status": "passed",
-              "duration": 2193000
+              "duration": 2602900
             }
           }
         ],
@@ -76,13 +76,13 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "I send a GET request to the user endpoint with the name of a person as \"billybob-bill parker\"",
+            "name": "I send a GET request to the endpoint with the name of a person as \"billybob-bill parker\"",
             "match": {
               "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 185200299
+              "duration": 127603500
             }
           },
           {
@@ -91,11 +91,11 @@
             "line": 6,
             "name": "the response status is ok and \"200\"",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:20"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:31"
             },
             "result": {
               "status": "passed",
-              "duration": 861699
+              "duration": 1013800
             }
           },
           {
@@ -104,11 +104,11 @@
             "line": 7,
             "name": "the response json body contains name of \"billybob-bill parker\" and his age",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:25"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:36"
             },
             "result": {
               "status": "passed",
-              "duration": 2424700
+              "duration": 3054999
             }
           },
           {
@@ -117,11 +117,11 @@
             "line": 8,
             "name": "the age returned is valid numerical value",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:34"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:45"
             },
             "result": {
               "status": "passed",
-              "duration": 2002500
+              "duration": 5841699
             }
           }
         ],
@@ -139,13 +139,13 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "I send a GET request to the user endpoint with the name of a person as \"billybob\"",
+            "name": "I send a GET request to the endpoint with the name of a person as \"billybob\"",
             "match": {
               "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 208815399
+              "duration": 112777000
             }
           },
           {
@@ -154,11 +154,11 @@
             "line": 6,
             "name": "the response status is ok and \"200\"",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:20"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:31"
             },
             "result": {
               "status": "passed",
-              "duration": 925099
+              "duration": 975199
             }
           },
           {
@@ -167,11 +167,11 @@
             "line": 7,
             "name": "the response json body contains name of \"billybob\" and his age",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:25"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:36"
             },
             "result": {
               "status": "passed",
-              "duration": 2509199
+              "duration": 2784900
             }
           },
           {
@@ -180,11 +180,11 @@
             "line": 8,
             "name": "the age returned is valid numerical value",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:34"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:45"
             },
             "result": {
               "status": "passed",
-              "duration": 1714099
+              "duration": 2368800
             }
           }
         ],
@@ -202,13 +202,13 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "I send a GET request to the user endpoint with the name of a person as \"BILLYBOB\"",
+            "name": "I send a GET request to the endpoint with the name of a person as \"BILLYBOB\"",
             "match": {
               "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 186384400
+              "duration": 112477100
             }
           },
           {
@@ -217,11 +217,11 @@
             "line": 6,
             "name": "the response status is ok and \"200\"",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:20"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:31"
             },
             "result": {
               "status": "passed",
-              "duration": 697500
+              "duration": 846900
             }
           },
           {
@@ -230,11 +230,11 @@
             "line": 7,
             "name": "the response json body contains name of \"BILLYBOB\" and his age",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:25"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:36"
             },
             "result": {
               "status": "passed",
-              "duration": 2130099
+              "duration": 2643199
             }
           },
           {
@@ -243,11 +243,11 @@
             "line": 8,
             "name": "the age returned is valid numerical value",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:34"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:45"
             },
             "result": {
               "status": "passed",
-              "duration": 1616899
+              "duration": 1846000
             }
           }
         ],
@@ -265,13 +265,13 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "I send a GET request to the user endpoint with the name of a person as \"a\"",
+            "name": "I send a GET request to the endpoint with the name of a person as \"a\"",
             "match": {
               "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 103059200
+              "duration": 108816299
             }
           },
           {
@@ -280,11 +280,11 @@
             "line": 6,
             "name": "the response status is ok and \"200\"",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:20"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:31"
             },
             "result": {
               "status": "passed",
-              "duration": 758000
+              "duration": 757700
             }
           },
           {
@@ -293,11 +293,11 @@
             "line": 7,
             "name": "the response json body contains name of \"a\" and his age",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:25"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:36"
             },
             "result": {
               "status": "passed",
-              "duration": 7419699
+              "duration": 2567000
             }
           },
           {
@@ -306,11 +306,11 @@
             "line": 8,
             "name": "the age returned is valid numerical value",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:34"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:45"
             },
             "result": {
               "status": "passed",
-              "duration": 1560200
+              "duration": 2155899
             }
           }
         ],
@@ -328,13 +328,13 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 20,
-            "name": "I send a GET request to the user endpoint with the name of a person as \"a12\"",
+            "name": "I send a GET request to the endpoint with the name of a person as \"a12\"",
             "match": {
               "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 108154600
+              "duration": 111077200
             }
           },
           {
@@ -343,11 +343,11 @@
             "line": 21,
             "name": "the response status is ok and \"200\"",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:20"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:31"
             },
             "result": {
               "status": "passed",
-              "duration": 859899
+              "duration": 1586099
             }
           },
           {
@@ -356,11 +356,11 @@
             "line": 22,
             "name": "the response json body contains name of \"a12\" and his age",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:25"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:36"
             },
             "result": {
               "status": "passed",
-              "duration": 3235500
+              "duration": 3341600
             }
           },
           {
@@ -369,11 +369,11 @@
             "line": 23,
             "name": "the age returned is null",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:39"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:50"
             },
             "result": {
               "status": "passed",
-              "duration": 2838000
+              "duration": 3451799
             }
           }
         ],
@@ -391,13 +391,13 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 20,
-            "name": "I send a GET request to the user endpoint with the name of a person as \"123\"",
+            "name": "I send a GET request to the endpoint with the name of a person as \"123\"",
             "match": {
               "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 107095000
+              "duration": 108968699
             }
           },
           {
@@ -406,11 +406,11 @@
             "line": 21,
             "name": "the response status is ok and \"200\"",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:20"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:31"
             },
             "result": {
               "status": "passed",
-              "duration": 723800
+              "duration": 1098899
             }
           },
           {
@@ -419,11 +419,11 @@
             "line": 22,
             "name": "the response json body contains name of \"123\" and his age",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:25"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:36"
             },
             "result": {
               "status": "passed",
-              "duration": 2468200
+              "duration": 2274000
             }
           },
           {
@@ -432,11 +432,11 @@
             "line": 23,
             "name": "the age returned is null",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:39"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:50"
             },
             "result": {
               "status": "passed",
-              "duration": 2369300
+              "duration": 6071699
             }
           }
         ],
@@ -454,13 +454,13 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 20,
-            "name": "I send a GET request to the user endpoint with the name of a person as \"\"",
+            "name": "I send a GET request to the endpoint with the name of a person as \"\"",
             "match": {
               "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 103187500
+              "duration": 112699099
             }
           },
           {
@@ -469,11 +469,11 @@
             "line": 21,
             "name": "the response status is ok and \"200\"",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:20"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:31"
             },
             "result": {
               "status": "passed",
-              "duration": 674299
+              "duration": 798499
             }
           },
           {
@@ -482,11 +482,11 @@
             "line": 22,
             "name": "the response json body contains name of \"\" and his age",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:25"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:36"
             },
             "result": {
               "status": "passed",
-              "duration": 2081900
+              "duration": 2295300
             }
           },
           {
@@ -495,11 +495,48 @@
             "line": 23,
             "name": "the age returned is null",
             "match": {
-              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:39"
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:50"
             },
             "result": {
               "status": "passed",
-              "duration": 1545600
+              "duration": 1716800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "estimating-the-age-of-a-person-by-sending-person's-name-to-a-get-api-request;estimating-the-age-of-a-person-with-an-invalid-params",
+        "keyword": "Scenario Outline",
+        "line": 38,
+        "name": "Estimating the age of a person with an invalid params",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I send a GET request to the endpoint with the name of a person as \"Billybob parker\" to a wrong parameter",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102135800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "the response status is not ok with \"422\"",
+            "match": {
+              "location": "file:\\C:\\Users\\setty\\Desktop\\Typescipt\\Playwright_Api_Auto_Leela\\src\\test\\steps\\getAgeSteps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 886300
             }
           }
         ],
